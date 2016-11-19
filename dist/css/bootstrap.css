@@ -2252,7 +2252,7 @@ pre code {
   }
 }
 table {
-  background-color: transparent;
+  background: transparent;
 }
 caption {
   padding-top: 8px;
@@ -5006,7 +5006,10 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: linear-gradient(to left, #673ab7, #512da8);
+  background: -webkit-gradient(linear, right top, left top, from(#673ab7), to(#512da8));
+  background: -webkit-linear-gradient(right, #673ab7, #512da8);
+  background:      -o-linear-gradient(right, #673ab7, #512da8);
+  background:         linear-gradient(to left, #673ab7, #512da8);
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: border .2s ease-in-out;
