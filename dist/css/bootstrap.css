@@ -1085,7 +1085,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
+  color: #eee;
   background: -webkit-gradient(linear, right top, left top, from(#673ab7), to(#512da8));
   background: -webkit-linear-gradient(right, #673ab7, #512da8);
   background:      -o-linear-gradient(right, #673ab7, #512da8);
@@ -2913,7 +2913,7 @@ select[multiple].input-lg {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #fff;
 }
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -5028,7 +5028,7 @@ a.thumbnail.active {
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #333;
+  color: #eee;
 }
 .alert {
   padding: 15px;
