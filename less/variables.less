@@ -7,7 +7,7 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
-@gray-base:              #d3d3d3;
+@gray-base:              #000;
 @gray-darker:            lighten(@gray-base, 13.5%); // #222
 @gray-dark:              lighten(@gray-base, 20%);   // #333
 @gray:                   lighten(@gray-base, 33.5%); // #555
@@ -26,9 +26,8 @@
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-
 //@body-bg:               #fff;
-@body-bg:               linear-gradient(to left, #673AB7 , #512DA8);;
+@body-bg:               linear-gradient(to left, #673AB7 , #512DA8);
 //** Global text color on `<body>`.
 @text-color:            @gray-dark;
 
@@ -129,11 +128,11 @@
 @table-condensed-cell-padding:  5px;
 
 //** Default background color used for all tables.
-@table-bg:                      transparent;
+@table-bg:                      @gray-darker;
 //** Background color used for `.table-striped`.
-@table-bg-accent:               #f9f9f9;
+@table-bg-accent:               @gray-dark;
 //** Background color used for `.table-hover`.
-@table-bg-hover:                #f5f5f5;
+@table-bg-hover:                @gray-darker;
 @table-bg-active:               @table-bg-hover;
 
 //** Border color for table and cell borders.
